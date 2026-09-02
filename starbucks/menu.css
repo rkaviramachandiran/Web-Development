@@ -129,9 +129,7 @@ body {
   ul{
     list-style: none;
   }
-  li{
-    padding: 13px;
-  }
+  
   h3{
     color: black;
   }
@@ -170,6 +168,7 @@ body {
     hr{
         margin-bottom: 20px;
         margin-top: 20px;
+        width: 100%;
     }
     h1{
         font-size: 26px;
@@ -179,4 +178,89 @@ body {
 .parant-container{
     display: flex;
     margin-left: 53px;
+}
+
+
+
+
+
+
+/* footer  */
+
+.flex-footer-parant{
+    margin-left: 40px;
+    margin-top: 30px;
+}
+.list li{
+    list-style: none;
+    margin-top: 35px;
+    color: gray;
+}
+.list a{
+    color: grey;
+    text-decoration: none;
+}
+.title-1{
+    color: rgb(52, 49, 49);
+    font-size: large;
+
+}
+.footer-child{
+    display: flex;
+    column-gap: 35px;
+}
+.footer-element-1{
+    width: 190px;
+}
+hr{
+    margin-top: 60px;
+    width: 1420px;
+    height: 1px;
+}
+.icon-img{
+    width: 32px;
+    width: 32px;
+}
+.social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.flex-fotter-element-2{
+    display: flex;
+    margin-left: -15px;
+
+}
+.social:hover{
+    background: rgb(187, 184, 184);
+    transition: all 1s ease;
+}
+.list2{
+    list-style: none;
+    margin-top: 30px;
+    color: gray;
+}
+.list2 a{
+    color: rgb(52, 50, 50);
+    font-weight: 700;
+    text-decoration: none;
+
+}
+.footer-child-2{
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.list2 a:hover{
+    text-decoration: underline;
+}
+.date{
+    font-weight: 700;
+    color: gray;
+}
+.flex-fotter-element-4{
+    margin-top: 40px;
+    margin-bottom: 50px;
 }
