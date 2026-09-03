@@ -114,7 +114,11 @@ body {
         text-decoration: none;
         color: black;
     }
+    li:hover{
+       text-decoration: underline;
+    }
 }
+
 .flex-element{
     margin-left: 105px;
 }
@@ -122,6 +126,7 @@ body {
     background: #f9f9f9;
 
 }
+
 
 /* section 1 */
 
@@ -138,13 +143,17 @@ body {
     color: gray;
   }
 }
-.Cards{
-    margin-left: 150px;
+.menu-sub-title{
+    padding: 10px;
 }
+/* .Cards,.Card{
+    margin-left: 170px; 
+} */
 .menu-sub-card{
     display: flex;
     align-items: center;
-    column-gap: 20px;
+    column-gap: 10px;
+    padding: 20px;
 
     a{
         text-decoration: none;
@@ -160,6 +169,8 @@ body {
     display: flex;
     /* column-gap: 30px; */
     align-items: center;
+    width: 870px;
+    justify-content: space-between;
 
 }.menu-element{
     padding: 40px;
@@ -179,6 +190,23 @@ body {
     display: flex;
     margin-left: 53px;
 }
+.flex-sub-card{
+    display: flex;
+    column-gap: 20px;
+    
+}
+.flex-sub-header-card{
+    display: flex;
+    flex-direction: column;
+   
+    row-gap: 30px;
+    width: 870px;
+
+
+    .Cards{
+        margin-left: 400px;
+    }
+}
 
 
 
@@ -186,10 +214,15 @@ body {
 
 
 /* footer  */
+footer{
+    box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.5);
+    padding: 20px;
 
+}
 .flex-footer-parant{
-    margin-left: 40px;
+    margin-left: 100px;
     margin-top: 30px;
+
 }
 .list li{
     list-style: none;
@@ -214,7 +247,7 @@ body {
 }
 hr{
     margin-top: 60px;
-    width: 1420px;
+    width: 1400px;
     height: 1px;
 }
 .icon-img{
