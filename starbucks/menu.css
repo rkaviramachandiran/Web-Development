@@ -28,8 +28,7 @@ body {
     display: flex;
     height: 99px;
     justify-content: space-between;
-    box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.5);
-
+box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
 }
 
 .header-child-2 a {
@@ -105,6 +104,7 @@ body {
     color:#00754a ;
  
 }
+
 .list-2{
     list-style: none;
     display: flex;
@@ -123,7 +123,7 @@ body {
     margin-left: 105px;
 }
 .header-parant-2{
-    background: #f9f9f9;
+    background: #e8e6e6;
 
 }
 
@@ -146,14 +146,12 @@ body {
 .menu-sub-title{
     padding: 10px;
 }
-/* .Cards,.Card{
-    margin-left: 170px; 
-} */
 .menu-sub-card{
     display: flex;
     align-items: center;
-    column-gap: 10px;
+    column-gap: 10;
     padding: 20px;
+    width: 230px;
 
     a{
         text-decoration: none;
@@ -164,13 +162,16 @@ body {
         width: 100px;
         height: 100px;
     }
+     p{
+        margin-left: 10px;
+    }
 }
+
 .menu-card{
     display: flex;
-    /* column-gap: 30px; */
+    column-gap: 20%; 
     align-items: center;
     width: 870px;
-    justify-content: space-between;
 
 }.menu-element{
     padding: 40px;
@@ -189,23 +190,21 @@ body {
 .parant-container{
     display: flex;
     margin-left: 53px;
+
 }
 .flex-sub-card{
-    display: flex;
-    column-gap: 20px;
+    p{
+        margin-left: 10px;
+    }
     
 }
 .flex-sub-header-card{
-    display: flex;
-    flex-direction: column;
-   
-    row-gap: 30px;
-    width: 870px;
+    display: grid;
+    grid-template-columns: 200px 200px ;
+    column-gap: 20%; 
 
 
-    .Cards{
-        margin-left: 400px;
-    }
+    
 }
 
 
